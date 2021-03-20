@@ -1,0 +1,190 @@
+/*CUSTOM*/
+body{
+	font-family: 'Cuprum', sans-serif;
+}
+a:hover{
+	text-decoration: none;
+}
+/*TOP MENU*/
+#header{
+	 background-color: green;
+	 padding: 3px 0;
+	/* font-weight: 600;*/
+}
+#header .top-menu span{
+	color: #FFF;
+	text-align: left;
+}
+#header .top-menu p{
+	margin: 0;
+	padding: 0; 
+    display: inline; 
+    float: right;
+}
+#header .top-menu a{
+	color: #FFF;
+}
+@media only screen and (max-width: 700px){
+    #header .top-menu p,#header .top-menu span{
+		display: inherit;
+		float: none;
+		text-align: center;
+    }
+ }
+.marquee_tag {
+    color: #000;
+    background-color: #FFD600;
+    line-height: 1;
+    padding: 7px;
+}
+.banner img{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: #000;
+	font-family: 'Play', sans-serif;
+	font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+	color: #E65100;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+	color: #E65100;
+}
+.navbar .navbar-brand{
+	padding: 0;
+	margin: 0;
+	font-size: 30px;
+	font-weight: 700;
+}
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding: 0 15px;
+	}
+}
+/*HOME PRODUCT*/
+#product-section {
+	padding: 50px 0;
+}
+#product-section h1{
+ font-size: 30px;
+ color: #FF6D00;
+ font-weight: 600; 
+}
+#product-section p{
+	color: #1B5E20;
+	font-style: italic;
+	font-weight: 600; 
+}
+#product-section ul li{
+	padding: 5px 0;
+	text-align: justify;
+}
+.vt-img-galy img{
+	padding: 10px 0;
+}
+/*BG INFO*/
+.bg-info{
+	/*background: url(../images/plant-bg.jpg);
+    width: 100%;
+    text-align: center;
+    padding: 85px 0px 130px 0px; 
+    background-attachment: fixed;
+    background-origin: initial;
+    background-clip: initial;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    background-position: center;
+    margin-bottom: 10px;*/ 
+        background-color: #424242;
+        text-align: center;
+    color: #fafafa;
+    background-image: url(../images/plant-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+ 
+}
+.bg-info .bg-info-cont{
+	padding: 50px;
+}
+.bg-info:before {
+       display: block;
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(1 103 18 / 80%);
+} 
+/*.bg-info:focus{ 
+	-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+
+}*/
+.bg-info h1 span{
+	position: relative; 
+	padding: 5px 10px; 
+	background-color: red;
+	font-size: 30px;
+	font-weight: 600;
+	text-align: center;  
+}
+.bg-info h3{
+	position: relative;
+	padding: 30px 0;
+	font-size: 25px;
+}
+/*FOOTER*/
+#footer { 
+    font-size: 14px;
+    color: #aaa;
+    padding-top: 50px;  
+    background: url(../images/leafs_dark.png) repeat !important; 
+}
+#footer h3 {
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 0px; 
+    margin-bottom: 22px;
+    color: #eee !important;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(109, 171, 60, 0.34);
+    padding: 10px 0;
+}
+#footer ul li:before{
+ content: "\f105";
+    font-family: "FontAwesome";
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit; 
+    color: #FFF; 
+    padding-right: 0.5em;
+   
+}
+#footer a{
+color: #FFF;
+} 
+#footer a:hover{
+	color: #FFD600;
+}
+#footer i{
+	padding-right: 0.5em;
+}
+/*copyright*/
+.copyright{
+	background-color: #424242;
+	padding: 9px 0 0;
+}
+@media only screen and (max-width: 700px){
+.copyright, .copyright .text-right{
+	text-align: center !important;
+}
+}
+/*FOOTER
